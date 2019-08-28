@@ -1,0 +1,9 @@
+.textarea-align  {
+    position: relative;
+    margin-top: 15px
+}
+.submit-btn {
+    position: absolute;
+    margin-top: 80px;
+    cursor: pointer;
+}

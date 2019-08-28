@@ -1,0 +1,63 @@
+{
+  "name": "dushmantha-reactRedux-example",
+  "version": "1.0.0",
+  "description": "This is a sample web application which developed with React Js , redux and Web pack and backend service built with Node js and express JS",
+  "main": "src/server/index.js",
+  "scripts": {
+    "client": "webpack-dev-server --config webpack/webpack.dev.js --devtool inline-source-map --hot",
+    "build:client": "webpack --config webpack/webpack.prod.js",
+    "server": "nodemon src/server/index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "react",
+    "express",
+    "webpack",
+    "axios",
+    "babel",
+    "expressjs",
+    "react router v5",
+    "redux",
+    "webpack"
+  ],
+  "author": "Dushmantha Baranige",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-polyfill": "^6.26.0",
+    "express": "^3.21.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-hot-loader": "^4.12.11",
+    "react-redux": "^7.1.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "body-parser": "^1.19.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "concurrently": "^4.1.2",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.19.1",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}

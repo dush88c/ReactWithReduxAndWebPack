@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.message-section {
+    padding: 0 30px;
+    display: flex;
+}
+
+.channel-section {
+    flex-grow: 1;
+}

@@ -1,0 +1,37 @@
+{
+    "channels": [{
+        "id": 1,
+        "name": "Technology"
+    }, {
+        "id": 2,
+        "name": "Animals"
+    }, {
+        "id": 3,
+        "name": "History"
+    }, {
+        "id": 4,
+        "name": "Foods"
+    }, {
+        "id": 5,
+        "name": "Culture"
+    }],
+    "messagesArray": [{
+            "channelId": 1,
+            "messages": []
+        },
+        {
+            "channelId": 2,
+            "messages": []
+        }, {
+            "channelId": 3,
+            "messages": []
+        }, {
+            "channelId":4,
+            "messages": []
+        },
+        {
+            "channelId":5,
+            "messages": []
+        }
+    ]
+}
